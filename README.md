@@ -20,7 +20,6 @@ Suggested categories for future additions:
 - `learning/` for tutoring, study, and explanation skills
 - `productivity/` for planning, summaries, and workflow helpers
 - `coding/` for development and review skills
-- `lark/` for Feishu/Lark-specific skills
 - `misc/` for skills that do not yet fit a stable category
 
 Keep each skill self-contained: place its `SKILL.md` and any referenced assets, scripts, or examples inside the same skill directory.
