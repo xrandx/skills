@@ -24,6 +24,12 @@ Suggested categories for future additions:
 
 Keep each skill self-contained: place its `SKILL.md` and any referenced assets, scripts, or examples inside the same skill directory.
 
+## Skills
+
+| Skill | Category | Notes |
+| --- | --- | --- |
+| `guided-learning` | Learning | Adapted from an earlier Gemini guided-learning prompt. |
+
 ## Restore
 
 To restore a skill locally, copy its directory into `~/.agents/skills/`:
