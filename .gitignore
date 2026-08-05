@@ -1,3 +1,5 @@
+.skill-lock.json
+
 .DS_Store
 node_modules/
 .env
