@@ -1,39 +1,44 @@
 # Skills
 
-Personal backup repository for agent skills.
+Personal Git repository for agent skills installed under `~/.agents`.
 
 ## Structure
 
-Skills live under `skills/<category>/<skill-name>/`.
-
-Current layout:
+Skills use the runtime-ready flat layout:
 
 ```text
-skills/
-  learning/
-    guided-learning/
+~/.agents/
+  skills/
+    <skill-name>/
       SKILL.md
 ```
 
-Suggested categories for future additions:
-
-- `learning/` for tutoring, study, and explanation skills
-- `productivity/` for planning, summaries, and workflow helpers
-- `coding/` for development and review skills
-- `misc/` for skills that do not yet fit a stable category
-
-Keep each skill self-contained: place its `SKILL.md` and any referenced assets, scripts, or examples inside the same skill directory.
+Keep each skill self-contained: place its `SKILL.md` and any referenced assets,
+scripts, or examples inside the same skill directory.
 
 ## Skills
 
-| Skill | Category | Notes |
-| --- | --- | --- |
-| `guided-learning` | Learning | Adapted from an earlier Gemini guided-learning prompt. |
+| Skill | Notes |
+| --- | --- |
+| `call-graph` | Plain-text call graphs and call stacks. |
+| `guided-learning` | Guided, Socratic learning support. |
+| `i-have-adhd` | ADHD-friendly response formatting. |
+| `lark-base` | Lark Base operations. |
+| `lark-calendar` | Lark Calendar operations. |
+| `lark-contact` | Lark contact lookup. |
+| `lark-doc` | Lark document operations. |
+| `lark-drive` | Lark Drive operations. |
+| `lark-im` | Lark instant messaging operations. |
+| `lark-mail` | Lark Mail operations. |
+| `lark-markdown` | Lark Markdown file operations. |
+| `lark-shared` | Shared Lark authentication and setup. |
+| `lark-sheets` | Lark spreadsheet operations. |
+| `translate` | Faithful translation into a requested language. |
+| `translate-to-markdown` | Translation into validated, portable Markdown. |
+| `translate-to-pdf` | Translation into a visually verified PDF. |
 
-## Restore
+## Git workflow
 
-To restore a skill locally, copy its directory into `~/.agents/skills/`:
-
-```sh
-cp -R skills/learning/guided-learning ~/.agents/skills/
-```
+Run Git commands from `~/.agents`. New skills placed directly under `skills/`
+remain immediately available to compatible agents and can be reviewed before
+they are staged or committed.
