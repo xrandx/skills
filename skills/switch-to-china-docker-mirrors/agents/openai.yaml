@@ -1,4 +1,4 @@
 interface:
-  display_name: "switch-to-china-docker-mirrors"
-  short_description: "查询、验证并替换为国内 Docker 镜像源"
-  default_prompt: "使用 $switch-to-china-docker-mirrors 查询并验证国内镜像，然后创建或更新 Dockerfile.cn。"
+  display_name: "国内 Docker 镜像源"
+  short_description: "查询、验证并替换 Docker、APT 与 Python 国内源"
+  default_prompt: "使用 $switch-to-china-docker-mirrors 为 Dockerfile 替换并验证国内源。"
