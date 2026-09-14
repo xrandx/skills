@@ -1,0 +1,4 @@
+interface:
+  display_name: "服务代码转契约"
+  short_description: "从指定目录生成中文 TypeSpec 与服务阅读说明，导出适用的 OpenAPI、AsyncAPI"
+  default_prompt: "使用 $service-to-typespec，从我指定的 source_dir 读取全部或指定服务，增量生成到 output_dir；按服务分配 subagent，提供中文 TypeSpec、简短 README 和适用的 OpenAPI、AsyncAPI。缺少目录参数时先询问。"
