@@ -19,4 +19,7 @@ Categories:
 | Skill | Category | Notes |
 | --- | --- | --- |
 | `call-graph` | Coding | Creates plain-text call graphs and call stacks. |
+| `codex-sidebar-recovery` | Productivity | Diagnoses and restores local Codex projects and sidebar organization; supports memory-version checks and switching. |
+| `dataset-explainer` | Learning | Explains dataset metadata and core contributions with real examples when explicitly invoked. |
+| `feishu-minutes-transcript` | Productivity | Saves Feishu Minutes transcripts from page elements with speakers and timestamps when explicitly invoked. |
 | `guided-learning` | Learning | Provides guided, Socratic learning support. |
